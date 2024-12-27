@@ -10,12 +10,13 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
@@ -35,18 +36,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Utslec" >
         <activity
             android:name="com.example.uts_lec.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Utslec" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.uts_lec.DMActivityList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uts_lec.AccountSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uts_lec.AddFriendActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uts_lec.EditAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uts_lec.ProfilePageActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ProfilePageActivity" />
         <activity
             android:name="com.example.uts_lec.SignUpActivity"
             android:theme="@style/Theme.SignUp" />

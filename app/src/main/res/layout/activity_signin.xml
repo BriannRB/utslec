@@ -13,7 +13,6 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="0.1"/>
-    <!-- Tombol Back atau Icon Kembali -->
     <ImageView
         android:id="@+id/backButton"
         android:layout_width="24dp"
@@ -22,12 +21,10 @@
         android:layout_gravity="start"
         android:contentDescription="Back Button"
         android:layout_marginBottom="24dp"/>
-
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="0.1"/>
-    <!-- Judul Sign In -->
     <TextView
         android:id="@+id/signInTitle"
         android:layout_width="wrap_content"
@@ -38,20 +35,15 @@
         android:textStyle="bold"
         android:layout_gravity="start"
         android:layout_marginBottom="24dp"/>
-
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_weight="0.1"/>
-
-    <!-- Email dan Kolom Email -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="16dp">
-
-        <!-- Label Email -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -60,8 +52,6 @@
             android:textColor="#B0B0B0"
             android:textSize="16sp"
             android:layout_gravity="center_vertical"/>
-
-        <!-- Input Email -->
         <EditText
             android:id="@+id/emailInput"
             android:layout_width="0dp"
@@ -74,15 +64,11 @@
             android:padding="12dp"
             android:inputType="textEmailAddress"/>
     </LinearLayout>
-
-    <!-- Password dan Kolom Password -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginBottom="24dp">
-
-        <!-- Label Password -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -91,8 +77,6 @@
             android:textColor="#B0B0B0"
             android:textSize="16sp"
             android:layout_gravity="center_vertical"/>
-
-        <!-- Input Password -->
         <EditText
             android:id="@+id/passwordInput"
             android:layout_width="0dp"
@@ -106,8 +90,6 @@
             android:drawableEnd="@drawable/ic_visibility"
             android:inputType="textPassword"/>
     </LinearLayout>
-
-    <!-- Tombol Sign In -->
     <Button
         android:id="@+id/signInButton"
         android:layout_width="150dp"

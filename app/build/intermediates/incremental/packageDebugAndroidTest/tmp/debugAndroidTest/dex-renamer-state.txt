@@ -1,4 +1,4 @@
-#Thu Oct 24 18:56:29 WIB 2024
+#Fri Dec 06 19:40:39 WIB 2024
 base.0=D\:\\Tugas\\Semester 5\\Mobile Application Programming\\utsutsuts\\utslec\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=D\:\\Tugas\\Semester 5\\Mobile Application Programming\\utsutsuts\\utslec\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=D\:\\Tugas\\Semester 5\\Mobile Application Programming\\utsutsuts\\utslec\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\8\\classes.dex

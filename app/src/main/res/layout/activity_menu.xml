@@ -5,8 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/gradient_background"
-    android:padding="16dp"
-    android:weightSum="1">
+    android:padding="16dp">
 
     <!-- Bagian Header -->
     <LinearLayout
@@ -26,7 +25,7 @@
 
             <!-- Gambar Profil Lingkaran -->
             <ImageView
-                android:id="@+id/circle_shape"
+                android:id="@+id/user"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/circle_shape"

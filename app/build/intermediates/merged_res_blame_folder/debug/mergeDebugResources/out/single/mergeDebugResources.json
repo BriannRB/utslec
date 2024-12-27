@@ -1,230 +1,282 @@
 [
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_placeholder.jpeg.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/placeholder.jpeg"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\color_dark_background.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\color\\dark_background.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_gift.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/gift.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\circle_shape.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_visibility_off.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\font_sora.ttf.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\font\\sora.ttf"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_send.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_send.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/layout_activity_signin.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/layout/activity_signin.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_sample_image.jpeg.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\sample_image.jpeg"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_gift.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\gift.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_error_placeholder.jpeg.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/error_placeholder.jpeg"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_back_arrow.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_back_arrow.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_user.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/user.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_roundtext.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\roundtext.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_back_arrow.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_back_arrow.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_user.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\user.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\logo.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_send.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_send.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/layout_activity_signup.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\rounded_edittext.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_internet.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/internet.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_gradient_background.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\gradient_background.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_layer_calendar.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/layer_calendar.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_account_settings.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_account_settings.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_rounded_button.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/rounded_button.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_placeholder.jpeg.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\placeholder.jpeg"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/xml_backup_rules.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\rounded_background.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/font_sora_bold.ttf.flat",
-        "source": "com.example.uts_lec.app-main-66:/font/sora_bold.ttf"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_roundbutton.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\roundbutton.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_calendar.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_calendar.png"
+        "merged": "com.example.uts_lec.app-debug-64:/layout_fragment_messages.xml.flat",
+        "source": "com.example.uts_lec.app-main-66:/layout/fragment_messages.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_wow.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/wow.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_item_message.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\item_message.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_gradient_background.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/gradient_background.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_menu.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/font_sora.ttf.flat",
-        "source": "com.example.uts_lec.app-main-66:/font/sora.ttf"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_layer_calendar.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\layer_calendar.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_skull.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_skull.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_visibility_off.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_visibility_off.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_gradientbackgorund.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/gradientbackgorund.xml"
+        "merged": "com.example.uts_lec.app-debug-64:/layout_item_message.xml.flat",
+        "source": "com.example.uts_lec.app-main-66:/layout/item_message.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_calendar.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_calendar.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/layout_activity_main.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/layout/activity_main.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\camera.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_visibility.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_visibility.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_dmlist.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_dmlist.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_rounded_image.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/rounded_image.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_glass_button.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\glass_button.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_save.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_save.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_rounded_image.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\rounded_image.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_camera.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/camera.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_fragment_messages.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\fragment_messages.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_api.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_api.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_message.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_message.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_signin.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_rounded_background.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/rounded_background.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_api.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_api.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_glass_button.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/glass_button.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\font_sora_bold.ttf.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\font\\sora_bold.ttf"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_sample_image.jpeg.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/sample_image.jpeg"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\rounded_button.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_cry.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_cry.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/layout_activity_add_caption.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/layout/activity_add_caption.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_add_caption.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_add_caption.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_roundbutton.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/roundbutton.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_save.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_save.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_circle_shape.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/circle_shape.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_message.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_message.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/layout_activity_menu.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/layout/activity_menu.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_cloud.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/cloud.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_edit_account.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_edit_account.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_rounded_edittext.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/rounded_edittext.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_error_placeholder.jpeg.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\error_placeholder.jpeg"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_cry.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_cry.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_logo.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/logo.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/xml_file_paths.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/xml/file_paths.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_add_friend.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_add_friend.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_ic_cancel.png.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/ic_cancel.png"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_dm_activity_list.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_dm_activity_list.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\xml\\file_paths.xml"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_roundtext.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/roundtext.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_internet.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\internet.png"
     },
     {
-        "merged": "com.example.uts_lec.app-debug-64:/drawable_scale_calendar.xml.flat",
-        "source": "com.example.uts_lec.app-main-66:/drawable/scale_calendar.xml"
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_visibility.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_cloud.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\cloud.png"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_skull.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_skull.png"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_wow.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\wow.png"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_ic_cancel.png.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\ic_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_gradientbackgorund.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\gradientbackgorund.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_scale_calendar.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\scale_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-debug-64:\\layout_activity_profile_page.xml.flat",
+        "source": "C:\\Users\\brian\\.gradle\\daemon\\8.7\\com.example.uts_lec.app-main-66:\\layout\\activity_profile_page.xml"
     }
 ]

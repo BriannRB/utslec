@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">uts-lec</string>
+    <string name="back_button" />
 </resources>

@@ -1,8 +1,10 @@
 package com.example.uts_lec
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
@@ -14,69 +16,75 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.bumptech.glide.Glide
-import com.google.firebase.database.*
+import com.bumptech.glide.load.resource.bitmap.CircleCrop
+import com.bumptech.glide.request.RequestOptions
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import java.io.File
 
-class MenuActivity : ComponentActivity(), GestureDetector.OnGestureListener {
+class MenuActivity : AppCompatActivity(), GestureDetector.OnGestureListener {
 
     private lateinit var gestureDetector: GestureDetector
     private val REQUEST_CAMERA_PERMISSION = 100
     private val REQUEST_IMAGE_CAPTURE = 101
     private lateinit var photoFile: File
 
-    // Tambahkan view untuk post image dan caption
     private lateinit var postImageView: ImageView
     private lateinit var postCaptionView: TextView
+    private lateinit var profileImage: ImageView
 
-    // Firebase Database reference
     private lateinit var databaseRef: DatabaseReference
+    private lateinit var auth: FirebaseAuth
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // Tautkan layout XML
         setContentView(R.layout.activity_menu)
 
-        // Inisialisasi GestureDetector untuk mendeteksi swipe
-        gestureDetector = GestureDetector(this, this)
-
-        // Referensi ke postImageView dan postCaptionView untuk menampilkan gambar dan caption
+        // Inisialisasi elemen UI
         postImageView = findViewById(R.id.postImage)
         postCaptionView = findViewById(R.id.postCaption)
+        profileImage = findViewById(R.id.overlay_image)
 
-        // Firebase Database Reference
         databaseRef = FirebaseDatabase.getInstance().getReference("posts")
+        auth = FirebaseAuth.getInstance()
 
-        // Tambahkan log untuk debugging
-        Log.d("MenuActivity", "Checking for new posts...")
+        // Inisialisasi GestureDetector
+        gestureDetector = GestureDetector(this, this)
 
-        // Ambil data dari Firebase dan tampilkan di MenuActivity
-        loadPostsFromFirebase()
+        // Memuat data pengguna
+        loadUserData()
 
-        // Referensi ke Gambar Profil
-        val profileImage: ImageView = findViewById(R.id.overlay_image)
         profileImage.setOnClickListener {
-            Toast.makeText(this, "Profil diklik", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, ProfilePageActivity::class.java)
+            startActivity(intent)
         }
 
-        // Referensi ke Tombol Everyone
         val everyoneButton: Button = findViewById(R.id.everyoneButton)
         everyoneButton.setOnClickListener {
             Toast.makeText(this, "Everyone button clicked!", Toast.LENGTH_SHORT).show()
         }
 
-        // Referensi ke Ikon Pesan
-        val messageIcon: View= findViewById(R.id.messageIcon)
-        messageIcon.setOnClickListener {
-            Toast.makeText(this, "Message Icon Clicked!", Toast.LENGTH_SHORT).show()
+        // Verify the fragment_container exists in the layout
+        if (findViewById<View>(R.id.fragment_container) == null) {
+            throw IllegalStateException("fragment_container is missing from the layout")
         }
 
-        // Referensi ke input pesan dan tombol kirim pesan
+        // Set click listener for the message icon
+        val messageIcon: View = findViewById(R.id.messageIcon)
+        messageIcon.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, MessagesFragment())
+                .addToBackStack(null)
+                .commit()
+        }
+
         val messageInput: EditText = findViewById(R.id.messageInput)
         val sendMessageIcon: View = findViewById(R.id.sendMessageIcon)
 
@@ -89,68 +97,40 @@ class MenuActivity : ComponentActivity(), GestureDetector.OnGestureListener {
                 Toast.makeText(this, "Pesan tidak boleh kosong!", Toast.LENGTH_SHORT).show()
             }
         }
-
-        val image1 = findViewById<ImageView>(R.id.image1)
-        val image2 = findViewById<ImageView>(R.id.image2)
-        val image3 = findViewById<ImageView>(R.id.image3)
-
-        image1.setOnClickListener {
-            Toast.makeText(this,"Emoji Icon Clicked!", Toast.LENGTH_SHORT).show()
-        }
-
-        image2.setOnClickListener {
-            Toast.makeText(this,"Emoji Icon Clicked!", Toast.LENGTH_SHORT).show()
-        }
-
-        image3.setOnClickListener {
-            Toast.makeText(this,"Emoji Icon Clicked!", Toast.LENGTH_SHORT).show()
-        }
     }
 
-    // Fungsi untuk mengambil data dari Firebase Realtime Database
-    private fun loadPostsFromFirebase() {
-        databaseRef.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                // Ambil semua data dari node "posts"
-                for (postSnapshot in snapshot.children) {
-                    val post = postSnapshot.getValue(Post::class.java)
-                    if (post != null) {
-                        // Gunakan Glide untuk menampilkan gambar dengan placeholder dan error handling
-                        Glide.with(this@MenuActivity)
-                            .load(post.imageUrl)
-                            .placeholder(R.drawable.placeholder) // Gambar placeholder saat loading
-                            .error(R.drawable.error_placeholder) // Gambar default jika error
-                            .into(postImageView)
-
-                        // Set caption
-                        postCaptionView.text = post.caption
-                    } else {
-                        Log.e("MenuActivity", "Post data is null")
+    private fun loadUserData() {
+        val userId = auth.currentUser?.uid
+        if (userId != null) {
+            val userRef = FirebaseDatabase.getInstance().getReference("users").child(userId)
+            userRef.get().addOnSuccessListener { dataSnapshot ->
+                if (dataSnapshot.exists()) {
+                    val user = dataSnapshot.getValue(User::class.java)
+                    user?.let {
+                        if (it.profileImageUrl != null) {
+                            Glide.with(this)
+                                .load(it.profileImageUrl)
+                                .apply(RequestOptions().transform(CircleCrop()))
+                                .into(profileImage)
+                        }
                     }
                 }
+            }.addOnFailureListener {
+                Toast.makeText(this, "Gagal memuat data pengguna", Toast.LENGTH_SHORT).show()
             }
-
-            override fun onCancelled(error: DatabaseError) {
-                Log.e("MenuActivity", "Database error: ${error.message}")
-            }
-        })
+        }
     }
-
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
         return gestureDetector.onTouchEvent(event) || super.onTouchEvent(event)
     }
 
     override fun onFling(
-        e1: MotionEvent?,
-        e2: MotionEvent,
-        velocityX: Float,
-        velocityY: Float
+        e1: MotionEvent?, e2: MotionEvent, velocityX: Float, velocityY: Float
     ): Boolean {
         if (e1 == null) return false
 
         val diffX = e2.x - e1.x
-        Log.d("MenuActivity", "Fling detected: diffX = $diffX")
         if (diffX > 50) {
             checkCameraPermission()
             return true
@@ -171,17 +151,12 @@ class MenuActivity : ComponentActivity(), GestureDetector.OnGestureListener {
     }
 
     override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
+        requestCode: Int, permissions: Array<String>, grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-
         if (requestCode == REQUEST_CAMERA_PERMISSION && grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            // Izin kamera diberikan, buka kamera
             openCamera()
         } else {
-            // Izin kamera ditolak
             Toast.makeText(this, "Izin kamera diperlukan untuk mengambil gambar", Toast.LENGTH_SHORT).show()
         }
     }
@@ -216,7 +191,6 @@ class MenuActivity : ComponentActivity(), GestureDetector.OnGestureListener {
     ): Boolean = true
     override fun onLongPress(e: MotionEvent) {}
 
-    // Buat class model Post untuk menyimpan data dari Firebase
     data class Post(
         val imageUrl: String = "",
         val caption: String = ""
