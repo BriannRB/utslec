@@ -2,6 +2,7 @@ package com.example.uts_lec
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Window
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -22,13 +23,17 @@ class ProfilePageActivity : AppCompatActivity() {
     private lateinit var databaseRef: DatabaseReference
     private lateinit var auth: FirebaseAuth
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_profile_page)
 
         username = findViewById(R.id.username)
         profileImage = findViewById(R.id.profileImage)
         editProfileButton = findViewById(R.id.editProfile)
+        val backButton: ImageView = findViewById(R.id.backButton)
+        backButton.setOnClickListener { finish() }
 
         databaseRef = FirebaseDatabase.getInstance().getReference("users")
         auth = FirebaseAuth.getInstance()

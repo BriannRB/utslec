@@ -4,12 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -23,18 +21,6 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".DMActivityList"
-            android:exported="false" />
-        <activity
             android:name=".AccountSettingsActivity"
             android:exported="false" />
         <activity
@@ -42,11 +28,22 @@
             android:exported="false" />
         <activity
             android:name=".EditAccountActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.EditAccountActivity"/>
         <activity
             android:name=".ProfilePageActivity"
             android:exported="false"
-            android:theme="@style/Theme.ProfilePageActivity" />
+            android:theme="@style/Theme.ProfilePageActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Utslec">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".SignUpActivity"
             android:theme="@style/Theme.SignUp" />
@@ -59,6 +56,9 @@
         <activity
             android:name=".AddCaptionActivity"
             android:theme="@style/Theme.MenuActivity" />
+        <activity
+            android:name=".DMPage"
+            android:theme="@style/Theme.MenuActivity" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -70,5 +70,4 @@
                 android:resource="@xml/file_paths" />
         </provider>
     </application>
-
 </manifest>

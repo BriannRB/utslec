@@ -76,7 +76,7 @@ dependencies {
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
 
     implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4") // Menambahkan ConstraintLayout
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

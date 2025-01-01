@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <shape xmlns:android="http://schemas.android.com/apk/res/android">
-        <solid android:color="#33FFFFFF" /> <!-- Transparansi dengan warna putih -->
+        <solid android:color="#40FFFFFF" /> <!-- Transparansi dengan warna putih -->
         <corners android:radius="80dp" />  <!-- Sudut rounded -->
         <padding
             android:left="16dp"
